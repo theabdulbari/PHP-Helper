@@ -47,7 +47,7 @@ function text2image($text){
     imagettftext($im, 20, 0, 10, 20, $black, $font, $text);
     // Using imagepng() results in clearer text compared with imagejpeg()
     imagepng($im);
-    imagedestroy($im);  
+    imagedestroy($im); 
 }
 $text = 'function is here';
 echo text2image($text);
