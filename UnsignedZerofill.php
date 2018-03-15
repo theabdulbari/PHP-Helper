@@ -1,3 +1,4 @@
+<?php
 $num = 123; // initilize input here
 $str_length = 4; // limit of unsigned zero
 $str = substr("0000{$num}", -$str_length);
