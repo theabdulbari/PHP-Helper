@@ -9,3 +9,6 @@ function unsignedZero($num,$str_length = 4){
   $str = substr("0000{$num}", -$str_length);
   return $str;
 }
+
+// online demo
+http://phpio.net/s/7836
