@@ -25,4 +25,4 @@ imagettftext($im, 20, 0, 10, 20, $black, $font, $text);
 // Using imagepng() results in clearer text compared with imagejpeg()
 imagepng($im);
 imagedestroy($im);
-?>
+
